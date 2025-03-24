@@ -1,0 +1,59 @@
+@import url("reset.css");
+.title {
+color: #1A1A1A;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+font-family: Poppins;
+font-size: 20px;
+font-weight: 500;
+line-height: 30px;
+margin-bottom: 16px;
+}
+.text p {
+color: #808080;
+font-family: Poppins;
+font-size: 18px;
+font-weight: 400;
+line-height: 27px;
+}
+.text p:first-child{
+margin-bottom: 24px;
+}
+
+.article__title{
+	font-family: "Winky Sans", serif;
+	font-weight: 700;
+	font-size: 50px;
+	color: red;
+	text-align: center;
+	text-transform: uppercase;
+}
+.serif {
+	font-family: "Winky Sans", serif;
+	font-weight: 500;
+	font-size: 30px;
+	color: rgba(76, 17, 17, 0.5);
+}
+.line-through {
+	text-decoration: line-through;
+	text-decoration-color:red;
+	text-decoration-style: wavy;
+}
+.overline {
+	text-decoration: overline;
+	word-spacing: 5px;
+	text-transform: lowercase;
+}
+.underline {
+	text-decoration: underline;
+	letter-spacing: 20px;
+	text-transform: capitalize;
+}
+.shadow{
+	text-shadow:5px 5px 2px red;
+}
+.sans-serif {
+	font-family: "Winky Sans", sans-serif ;
+	font-weight: 300;
+	font-style: italic;
+	font-size: 40px;
+}
