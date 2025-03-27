@@ -1,0 +1,96 @@
+@import url("reset.css");
+@font-face{
+	font-family: Circular Std Bold;
+	src:url(../fonts/CircularStd-Bold.ttf)
+}
+@font-face{
+	font-family: Circular Std Book;
+	src:url(../fonts/CircularStd-Book.ttf)
+}
+main{
+	background: #231F8B;
+}
+.container{
+	max-width: 1040px;
+	margin: 0 auto;
+}
+.row-text {
+	padding: 70px 0 70px 0;
+}
+.tag {
+	color: #5A54F2;
+	font-family: Montserrat;
+	font-size: 14px;
+	font-weight: 700;
+	margin: 0 0 10px 0;
+}
+.title {
+	color: #FFF;
+	font-family: "Circular Std";
+	font-size: 36px;
+	font-weight: 700;
+	margin: 0 0 10px 0;
+}
+.desc {
+	color:#FFF;
+	font-family: "Circular Std";
+	font-size: 14px;
+	font-weight: 450;
+	letter-spacing: 0.2px;
+}
+.row-cards {
+	height: 350px;
+}
+.card-1,.card-2,.card-3,.card-4 {
+	display: inline-block;
+	background: #fff;
+	width: 230px;
+}
+.card-3{
+	background: #5A54F2;
+}
+.card-1,.card-3{
+	vertical-align: top;
+}
+.card-2{
+	margin:48px 20px 0 30px;
+}
+.card-4{
+	margin:48px 0 0 20px;
+}
+.card-content{
+	padding: 35px 40px;
+}
+.image {
+	margin: 0 0 20px 0;
+}
+.feature-title,.feature-title-3 {
+	color: #252B42;
+	font-family: "Circular Std";
+	font-size: 16px;
+	font-weight: 700;
+	letter-spacing: 0.1px;
+	margin: 0 0 20px 0;
+}
+.feature-title-3{
+	color: #fff;
+}
+.line,.line-3 {
+	background:#E74040;
+	width: 50px;
+	height: 2px;
+	margin: 0 0 20px 0;
+}
+.line-3{
+	background:#fff;
+}
+.feature-desc,.feature-desc-3 {
+	color: #737373;
+	font-family: Montserrat;
+	font-size: 14px;
+	font-weight: 400;
+	letter-spacing: 0.2px;
+}
+.feature-desc-3{
+	color: #fff;
+}
